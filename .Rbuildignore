@@ -1,5 +1,12 @@
-^src/\.cargo$
-^src/rust/vendor$
-^src/rust/target$
-^src/Makevars$
-^src/Makevars\.win$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.github$
+^LICENSE\.md$
+^README\.Rmd$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^\.lintr$
+^codecov\.yml$
+^cran-comments\.md$
+^CRAN-SUBMISSION$
