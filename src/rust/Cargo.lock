@@ -1231,14 +1231,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fsrsr"
-version = "0.1.0"
-dependencies = [
- "extendr-api",
- "fsrs",
-]
-
-[[package]]
 name = "futures-core"
 version = "0.3.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2559,6 +2551,14 @@ name = "renderdoc-sys"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "19b30a45b0cd0bcca8037f3d0dc3421eaf95327a17cad11964fb8179b4fc4832"
+
+[[package]]
+name = "rfsrs"
+version = "0.1.0"
+dependencies = [
+ "extendr-api",
+ "fsrs",
+]
 
 [[package]]
 name = "rmp"

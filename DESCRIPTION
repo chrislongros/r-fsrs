@@ -1,4 +1,4 @@
-Package: fsrsr
+Package: rfsrs
 Title: R Bindings for FSRS-RS Spaced Repetition Algorithm
 Version: 0.1.0
 Authors@R: person("Chris", "Longros", role = c("aut", "cre"), email = "your@email.com")

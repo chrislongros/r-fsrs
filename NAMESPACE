@@ -1,2 +1,2 @@
-useDynLib(fsrsr, .registration = TRUE)
+useDynLib(rfsrs, .registration = TRUE)
 exportPattern("^[[:alpha:]]+")

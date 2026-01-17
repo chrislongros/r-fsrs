@@ -4,10 +4,10 @@
 
 #
 # This file was created with the following call:
-#   .Call("wrap__make_fsrsr_wrappers", use_symbols = TRUE, package_name = "fsrsr")
+#   .Call("wrap__make_rfsrs_wrappers", use_symbols = TRUE, package_name = "rfsrs")
 
 #' @usage NULL
-#' @useDynLib fsrsr, .registration = TRUE
+#' @useDynLib rfsrs, .registration = TRUE
 NULL
 
 #' Get default FSRS parameters

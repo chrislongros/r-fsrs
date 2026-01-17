@@ -81,7 +81,7 @@ fn fsrs_retrievability(stability: f64, elapsed_days: f64) -> f64 {
 }
 
 extendr_module! {
-    mod fsrsr;
+    mod rfsrs;
     fn fsrs_default_parameters;
     fn fsrs_next_interval;
     fn fsrs_initial_state;
