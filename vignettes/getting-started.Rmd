@@ -164,7 +164,7 @@ simulate_learning <- function(n_reviews = 10, rating = 3, desired_retention = 0.
   for (i in 1:n_reviews) {
     interval <- fsrs_next_interval(state$stability, desired_retention)
     current_day <- current_day + interval
-    state <- fsrs_next_state(state$stability, state$difficulty, rating, interval)
+    state <- fsrs_next_state(state$stability, state$difficulty, interval, rating)
     
     results <- rbind(results, data.frame(
       review = i,
